@@ -7,12 +7,13 @@
 [node name="GameplayScreen" type="Node2D"]
 
 [node name="Background" type="Sprite2D" parent="."]
-position = Vector2(0.5, 1)
-scale = Vector2(1.002, 1.00667)
+position = Vector2(321, 225)
+scale = Vector2(1.24, 1.24)
 texture = ExtResource("1_p03jc")
 
 [node name="Player" parent="." instance=ExtResource("2_u3s12")]
+position = Vector2(288, 193)
 
 [node name="Asteroid" parent="." instance=ExtResource("3_aruhs")]
-position = Vector2(50, -43)
+position = Vector2(464, 126)
 scale = Vector2(1.002, 1.00667)
